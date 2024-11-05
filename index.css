@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    color:antiquewhite;
+    background-color: #2b3743;
+}
+
+header {
+    background-color: #892121;
+    font-family:'Courier New', Courier, monospace;
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+
+th {
+    border-style:solid;
+    border-color: #4e5668;
+    text-align: center;
+    width: 100%;
+        } 
+
+/*PONER LA PRIMERA COLUMNA MÁS PEQUEÑA*/
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+        }
+
+/*PONER ICONOS MÁS PEQUEÑOS*/
+#instagram {
+    max-width: 50%;
+    height: auto;
+}
+
+#spotify {
+    width: 20%;
+}
+
+footer {
+    text-align: center;
+    background: #434445;
+    color: white;
+    position: relative;
+    width: 100%;
+}
+
