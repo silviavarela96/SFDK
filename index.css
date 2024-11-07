@@ -1,47 +1,107 @@
 body {
     font-family: Arial, sans-serif;
-    color:antiquewhite;
-    background-color: #2b3743;
+    color:#1b1b1b;
+    background-color: #ffffff;
+}
+
+h2 {
+    color:#892121
+}
+
+h3 {
+    color:#311411
+    
+}
+
+h4 {
+    color: #262d53
 }
 
 header {
-    background-color: #892121;
+    background-color: #b71b1b;
     font-family:'Courier New', Courier, monospace;
     font-size: larger;
+    text-align: center;
     color: rgb(0, 0, 0);
+    padding: 25px;
+    position: fixed; 
+    z-index: 1;  
+}
+
+main {
+    padding: 20px;
+}
+
+#portada {
+    width: 100%;
+
+}
+
+#instagram {
+    max-width: 50px;
+    float:right ;
+}
+
+#spotify {
+    width: 30px;
+    float:right ;
     padding: 10px;
 }
 
+#logo {
+    width: 130px;
+    text-align: left;
+    float:inline-start ;
+}
 
 th {
-    border-style:solid;
-    border-color: #4e5668;
     text-align: center;
     width: 100%;
         } 
 
-/*PONER LA PRIMERA COLUMNA MÁS PEQUEÑA*/
-td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: center;
+        table th:first-child {
+            width: 10%;
+          }
+
+        table th {
+            width: auto;
         }
 
-/*PONER ICONOS MÁS PEQUEÑOS*/
-#instagram {
-    max-width: 50%;
-    height: auto;
+#tabla {
+    padding: 10px;
+    text-align: center; 
+    border: solid #4e5668;  
 }
 
-#spotify {
-    width: 20%;
-}
+#menu {
+    border: 2px solid red;
+    border-radius: 50px;
+    background-color: #f8f8f8;
+        }
+
+#zatu {
+    width:160px;
+    float: right;
+        }
+
+#sanchez {
+    width: 160px;
+    float: right;
+        }
+
+.content {
+    display: flex;
+    align-items: center; /*CENTRA EL TEXTO EN LA IMAGEN*/
+        }
 
 footer {
     text-align: center;
-    background: #434445;
+    background: #000000;
     color: white;
-    position: relative;
+    position:relative ;
     width: 100%;
+    padding: 10px;
+    margin-top: 50px; 
+    
 }
 
