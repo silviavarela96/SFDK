@@ -26,6 +26,7 @@ header {
     padding: 25px;
     position: fixed; 
     z-index: 1;  
+    width: 100%;
 }
 
 main {
@@ -70,13 +71,15 @@ th {
 #tabla {
     padding: 10px;
     text-align: center; 
-    border: solid #4e5668;  
+    border: solid #4e5668;
+    width: 100%;  
 }
 
 #menu {
     border: 2px solid red;
     border-radius: 50px;
     background-color: #f8f8f8;
+    width: 100%;
         }
 
 #zatu {
